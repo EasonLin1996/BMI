@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <main>
+    <section class="header">
+      <img src='img/BMICLogo.png' alt='BMI' class='logo'>
+      <div class="txtbox">
+        <label for="height" class='txtbox__label'>身高cm</label>
+        <input type="text" id='height' class='txtbox__input' placeholder="請輸入身高">
+        <label for="weight" class='txtbox__label'>體重kg</label>
+        <input type="text" id='weight' class='txtbox__input' placeholder="請輸入體重">
+        <p class='txtbox__alert' style="display: none;">**身高或體重出錯，請重新輸入</p>
+      </div>
+      <button class='txtbox__btn'>看結果</button>
+      <div class='txtbox__res' style="display: none;">
+      </div>
+    </section>
+    <section class='record'>
+      <h4 class='record__title'>BMI紀錄</h4>
+      <div class='center'><button class='record__delete'>DELETE ALL</button></div>
+        <ul class="record__list">
+          <li class='record__item'>
+            <div class='bar'></div>
+            <p>理想</p>
+            <p>BMI <span>20.90</span></p>
+            <p>weight <span>20.90</span></p>
+            <p>height <span>20.90</span></p>
+            <p>06-19-2017</p>
+            <p><a href="#" data-index=1>刪除</a></p>
+          </li>
+          <li class='record__item'>
+            <div class='bar'></div>
+            <p>理想</p>
+            <p>BMI <span>20.90</span></p>
+            <p>weight <span>20.90</span></p>
+            <p>height <span>20.90</span></p>
+            <p>06-19-2017</p>
+            <p><a href="#" data-index=1>刪除</a></p>
+          </li>
+        </ul>
+    </section>
+  </main>
+  <footer class='footer'>
+
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
+
+<!-- 兩點開始 -->
+<!-- 六點結束 -->
+
+<!-- 
+  1.四捨五入制小入第二位
+  2.三源運算子
+  3.splice插入第一個
+  4.className += ' abc'
+  5.style.display='flex'
+ -->
